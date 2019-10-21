@@ -823,7 +823,7 @@ a4 { font-weight:bold;
 	<div id="logo">
 		<img src="logo.png">
 	</div>
-<a href="https://seoojing.github.io/book/">
+<a href="https://seoojing.github.io/menu/">
 	<div id="book">
 		<img src="book3.png">
 	</div>
@@ -895,12 +895,16 @@ a4 { font-weight:bold;
 		<img src="turn.png">
 	</div>
 </a>	
+<a href="https://seoojing.github.io/oui/">
 	<div id="toto">
 		<img src="orhere.png">
 	</div>
-
+</a>
 
 <!--설명글 -->
+	<audio id="beep">
+		<source src="beep.mp3" type="audio/mpeg">
+	</audio>
 
 
 <!-- Image 3 -->
@@ -1252,6 +1256,9 @@ window.onmousemove = function(){
 		on = true;}
 
 			}
+			
+	soun11.onclick = function(){
+		beep.play();}	
 	music.onclick = function(){
 		viol.pause();
 			music2.style.display = "inline";
